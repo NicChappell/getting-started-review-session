@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12" id="header">
+                <h1>Fantasy Fighter</h1>
+                <h5>Select your fantasy characters and fight!</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l5">
+                <label>Player One</label>
+                <select class="browser-default" id="player-one-character">
+                    <option value="" disabled selected>Choose your character</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+            </div>
+            <div class="col s12 l2">
+                <button class="waves-effect waves-light btn" id="randomize">Randomize</button>
+            </div>
+            <div class="col s12 l5">
+                <label>Player Two</label>
+                <select class="browser-default" id="player-two-character">
+                    <option value="" disabled selected>Choose your character</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
